@@ -1,0 +1,39 @@
+﻿/* this file is customized for shinigami-bocchan.html*/
+body{
+	background: #ff3;
+}
+
+.webpages {
+	position: relative;
+	background: #fff;
+	text-align: center;
+	width: 85%;
+	height: 85%;
+	top: 5px;
+	left: 7%;
+	
+}
+
+.webpages-img {
+	position: relative;
+	width: 95%;
+	height: 80%;
+	margin: 0;
+	left: auto;
+	right: auto;
+	top: 10px;
+}
+
+.webpages-title {
+	font-family: 'Charmonman', cursive;
+	position: relative;
+	margin: 0;
+	padding: 20px;
+	left: auto;
+	right: auto;
+	bottom: 10px;
+	border-width: 0px;
+}
+.webpages-title h1{
+	text-align: center;
+}

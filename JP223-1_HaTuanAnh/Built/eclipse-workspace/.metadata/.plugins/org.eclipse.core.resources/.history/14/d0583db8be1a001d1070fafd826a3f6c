@@ -1,0 +1,30 @@
+package objects;
+
+public class Person {
+	// Object's properties
+	String firstName;
+	String lastName;
+	byte age;
+
+	// Constructor methods
+	public Person() {
+
+	}
+
+	public Person(byte a) {
+
+	}
+
+	public Person(String f, String a) {
+
+	}
+
+	public Person(String f, String l, String a) {
+
+	}
+
+	public Person(byte a, String f, String l) {
+
+	}
+
+}

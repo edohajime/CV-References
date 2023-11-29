@@ -1,0 +1,95 @@
+﻿/* This file is customized for blog-single.html */
+
+/* BLOG SINGLE SECTION */
+#blog .entry-img .entry-title {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#blog .entry-img {
+    height: calc(100vw * 3 / 4);
+	max-height: 400px;
+    padding: 0;
+}
+
+#blog .entry-img .entry-meta {
+    background: #00000080;
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+	padding: 20px 40px;
+	
+}
+#blog .entry-img .entry-meta ul li a, #blog .entry-img .entry-meta i{
+    font-size: 1.2rem;
+    color: #fff;
+} 
+
+#blog .entry-content p{
+	font-weight: 500;
+}
+
+/* blockquote */
+#blog .entry .entry-content blockquote::after{
+	background-color: #d16017;
+}
+
+#blog .entry .entry-content h3{
+    color: #d16017;
+    background: #00000020;
+    padding: 5px;
+    border-left: 3px solid #d16017;
+}
+
+#blog .entry .entry-footer a, #blog .entry .entry-footer i{
+	color: #d16017;
+}
+
+.blog-container{
+	padding: 0 20%;
+	margin: 5% 0;
+}
+.blog-img {
+	width: 100%;
+	height: 300px;
+}
+
+.blog-img-1 {
+	background: url('../img/blogs/blog-single/blog-img-1.jpg') center center;
+	background-size: cover;
+}
+.blog-img-2 {
+	background: url('../img/blogs/blog-single/blog-img-2.jpg') center center;
+	background-size: cover;
+}
+
+/* END BLOG SINGLE SECTION */
+
+/* BLOG AUTHOR SECTION */
+#blog .blog-author h4, #blog .blog-author p{
+	color: #000;
+}
+#blog .blog-author .social-links a {
+	color: #a52a2a;
+}
+/* END BLOG AUTHOR SECTION */
+
+
+/* BLOG COMMENT SECTION */
+#blog .blog-comments .comment h5 .reply{
+	color: #a52a2a;
+}
+#blog .blog-comments .comment time{
+	color: #a52a2a;
+}
+
+/* END BLOG COMMENT SECTION */
+
+/* REPLY FORM */
+#blog .blog-comments .reply-form .btn-primary{
+	background-color: #a52a2a;
+}
+/* END REPLY FORM */
+

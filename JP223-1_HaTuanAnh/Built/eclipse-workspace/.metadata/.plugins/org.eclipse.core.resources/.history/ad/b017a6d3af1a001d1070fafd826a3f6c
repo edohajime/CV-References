@@ -1,0 +1,15 @@
+package examples;
+
+public class Ex1 {
+	public static void main(String[] args) {
+		//TODO Auto-generated methos stub
+		
+		/**
+		 * Sinh ngau nhien gia tri nguyen int n trong pham vi [0-100)
+		 */
+		
+		int n = (int)(Math.random()*100);
+		
+		//In ra man hinh
+	}
+}

@@ -1,0 +1,50 @@
+package objects;
+
+public class Person {
+	// Object's properties
+	String firstName;
+	String lastName;
+	byte age;
+
+	// Constructor methods
+	public Person() {
+		// Dac biet loai 1
+		firstName = "No FirstName";
+		lastName = "No LastName";
+		age = 0;
+	}
+
+	public Person(byte a) {
+		firstName = "No FirstName";
+		lastName = "No LastName";
+		age = a;
+	}
+
+	public Person(String f, byte a) {
+		firstName = f;
+		lastName = "No LastName";
+		age = 0;
+	}
+
+	public Person(String f, String l, byte a) {
+		// Dac biet loai 2
+		firstName = f;
+		lastName = l;
+		age = a;
+	}
+
+	// Other methods
+	public String toString() {
+		return firstName + " " + lastName + ", " + age;
+	}
+	
+	public static void main(String[] args) {
+		// Khoi tao cac the hien doi tuong 
+		Person p;
+		Person p1 = new Person();
+		Person p2 = new Person((byte)20);
+		Person p3 = new Person("Ha", "Tuan Anh", (byte)22);
+		Person p4 = new Person("Tuan Anh", (byte)22);
+	}
+
+}

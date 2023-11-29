@@ -1,0 +1,46 @@
+package examples;
+
+public class Ex2 {
+	/**
+	 * This method is used to check a n value is Prime? <br>
+	 * <i>Updated 13/08/2022</i> <br>
+	 * 
+	 * @param n - value need check
+	 * @return
+	 * @author HaTuanAnh JP223
+	 */
+	public static boolean checkPrime(int n) {
+		// Bien trung gian xac nhan so nguyen to
+		boolean isPrime = true;
+		// Kiem tra n
+		if (n < 2) {
+			isPrime = false;
+		} else {
+			for (int v = 2; v <= (int) (Math.sqrt(n)); v++) {
+				if (n % v == 0) {
+					isPrime = false;
+					break;
+				}
+			}
+		}
+		return isPrime;
+	}
+
+	public static void main(String[] args) {
+		// Khoi tao the hien doi tuong
+		Ex2 ex = new Ex2();
+
+		/**
+		 * Sinh ngau nhien gia tri nguyen int n trong pham vi [0-100)
+		 */
+
+		int n = (int) (Math.random() * 1000);
+
+		if (ex.checkPrime(n)) {
+			System.out.print("Gia tri cua n = " + n + " la nguyen to");
+		} else {
+			System.out.print("Gia tri cua n = " + n + " khong la nguyen to");
+		}
+	}
+	// ctrl + shift + F : Dong hang dong cot
+}

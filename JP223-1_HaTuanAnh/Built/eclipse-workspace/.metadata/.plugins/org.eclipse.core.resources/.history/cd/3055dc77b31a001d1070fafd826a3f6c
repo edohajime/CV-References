@@ -1,0 +1,27 @@
+package examples;
+
+public class Ex2 {
+	/**
+	 * This method is used to check a n value is Prime?
+	 * <br>
+	 * <i>Updated 13/08/2022</i>
+	 * <br>
+	 * @param n - value need check
+	 * @return
+	 * @author HaTuanAnh JP223
+	 */
+	public boolean checkPrime(int n) {
+		// Kiem tra n
+		if (n < 2) {
+			isPrime = false;
+		} else {
+			for (int v = 2; v <= (int) (Math.sqrt(n)); v++) {
+				if (n % v == 0) {
+					isPrime = false;
+					break;
+				}
+			}
+		}
+	}
+	//ctrl + shift + F : Dong hang dong cot
+}

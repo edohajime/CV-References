@@ -1,0 +1,63 @@
+﻿#product {
+	padding: 0 0 60px 0;
+}
+.products {
+    position: relative;
+	height: auto;
+	padding: 20px 0 0 0;
+	border-bottom: 1px solid #a52a2a;
+	background: #f5d9d9;
+}
+.product #product-flters li {
+	border-radius: 0;
+}
+
+.product .container{
+	min-height: 300px;
+	max-height: 1130px;
+}
+
+
+.tag {
+	position: relative;
+	height: 64px;
+	padding: 6px;
+	border-bottom: 5px solid #a52a2a;
+	box-shadow: 5px 5px 20px #00000050;
+	background: #f6b024;
+	overflow: hidden;
+}
+.tag .tag-title{
+	width: 220px;
+	margin: 10px;
+	padding: 6px 0;
+	transition: all 0.25s linear;
+}
+.tag .tag-title a {
+	padding: 6px;
+}
+.tag .tag-title:hover {
+	background: #a52a2a;
+}
+
+.tag .tag-title .fa-tag {
+	font-size: 1.4rem;
+	color: #a52a2a;
+}
+
+.tag .tag-title:hover, .tag-title:hover .fa-tag, .tag .filter-active .fa-tag{
+	color: #fff;
+}
+
+.tag .tag-dropdown {
+    position: absolute;
+    padding: 0;
+    top: 12px;
+    right: 12px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    background: transparent;
+    border-width: 0;
+    transition: all 0.125s linear;
+}

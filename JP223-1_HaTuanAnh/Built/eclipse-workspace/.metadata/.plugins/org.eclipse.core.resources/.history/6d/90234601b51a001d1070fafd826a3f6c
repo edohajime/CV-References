@@ -1,0 +1,26 @@
+package examples;
+
+public class Ex1 {
+	
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated methos stub
+
+		/**
+		 * Sinh ngau nhien gia tri nguyen int n trong pham vi [0-100)
+		 */
+
+		int n = (int) (Math.random() * 1000);
+
+		// In ra man hinh
+		System.out.print("gia tri cua n = " + n);
+
+		// thong bao
+		if (isPrime) {
+			System.out.print(" La nguyen to");
+		} else {
+			System.out.print(" Khong la nguyen to");
+		}
+	}
+}

@@ -1,0 +1,82 @@
+package examples;
+
+public class Ex2 {
+	/**
+	 * This method is used to check a n value is Prime? <br>
+	 * <i>Updated 13/08/2022</i> <br>
+	 * 
+	 * @param n - value need check
+	 * @return
+	 * @author HaTuanAnh JP223
+	 */
+	public static boolean checkPrime(int n) {
+		// Bien trung gian xac nhan so nguyen to
+		boolean isPrime = true;
+		// Kiem tra n
+		if (n < 2) {
+			isPrime = false;
+		} else {
+			for (int v = 2; v <= (int) (Math.sqrt(n)); v++) {
+				if (n % v == 0) {
+					isPrime = false;
+					break;
+				}
+			}
+		}
+		return isPrime;
+	}
+
+	/**
+	 * This method is used to get UCLN from two parameters<br>
+	 * <i>Updated 13/08/2022</i><br>
+	 * 
+	 * @param a
+	 * @param b
+	 * @return
+	 */
+	public static int getUCLN(int a, int b) {
+		int ucln = -1;
+		if (a * b != 0) {
+			while (a != b) {
+				if (a > b) {
+					a -= b;
+				} else {
+					b -= a;
+				}
+			}
+
+			ucln = a;
+		}
+
+		return ucln;
+	}
+	
+	/**
+	 * This method is used to get UCLN of three parameters a,b,c<br>
+	 * <i>Updated: 13/08/2022</i>
+	 * @param a
+	 * @param b
+	 * @param c
+	 * @return
+	 */
+	public static int getUCLN(int a, int b, int c) {
+		// Tim tung UCLN cho tung cap
+		return Ex2.getUCLN(Ex2.getUCLN(a, b), c)
+	}
+
+	public static void main(String[] args) {
+		// Khoi tao the hien doi tuong
+
+		/**
+		 * Sinh ngau nhien gia tri nguyen int n trong pham vi [0-100)
+		 */
+
+		int n = (int) (Math.random() * 1000);
+		int m = (int) (Math.random() * 1000);
+
+		System.out.print("UCLN cua m = " + m + " va n = " + n + " la: " + Ex2.getUCLN(n, m));
+
+	}
+	// ctrl + shift + F : Dong hang dong cot
+	
+}
