@@ -1,0 +1,323 @@
+@media (min-width: 320px) and (max-width: 767.99px){
+    .topbar {
+		display: block;
+	}
+	.topbar {
+		padding: 10px 10px;
+		font-size: 12px;
+	}
+    .nav-mobile{
+        display: block;
+    }
+    .nav-lap{
+        display: none;
+    }
+    .innerStore{
+        font-size: 14px;
+        padding: 20px;
+    }
+    .searchBagMobile {
+		width: 50%;
+	}
+    .searchBagMobile img{
+		height: 20px;
+	}
+	.logo-mainMobile{
+		width: 40%;
+	}
+	#mobile-menu{
+		flex-direction: column;
+		text-align: center;
+	}
+	.logo-mainMobile img {
+	max-width: 125px;
+	display: inline-block;
+	}
+	.bag-rightMobile {
+		position: relative;
+	}
+	.bag-rightMobile a {
+		display: inline-block;
+		position: relative;
+	}
+	.bag-rightMobile span.countMobile {
+		position: absolute;
+		top: -5px;
+		right: -6px;
+		background: black;
+		color: white;
+		width: 15px;
+		height: 15px;
+		border-radius: 100%;
+		text-align: center;
+		line-height: 15px;
+		font-size: 10px;
+	}
+    .innerFooter{
+        display: block;
+    }
+    #sectionFooter{
+        font-size: 13px;
+    }
+    .innerMenuFooter h4:before {
+		content: "\f107";
+		font-family: "FontAwesome";
+		font-size: 14px;
+		position: absolute;
+		top: 0px;
+		right: 5px;
+		text-align: center;
+		line-height: 19px;
+	}
+    .innerMenuFooter ul,
+	.contentSubscribe {
+		display: block;
+	}
+	.innerMenuFooter h4 {
+		position: relative;
+	}
+    .innerMenuFooter h4 {
+		font-size: 14px;
+	}
+    .innerFooter .row > div {
+		width: 100%;
+	}
+    .innerFooter > div {
+		width: 100%;
+		margin-bottom: 15px;
+	}
+    .innerFooter {
+		margin: 0;
+	}
+	.innerFooter > div {
+		padding: 0;
+	}
+    .coppyRight {
+		float: left;
+		text-align: center;
+		width: 100%;
+		margin: 10px 0 0 0;
+	}
+	.infoFooterBottom {
+		float: left;
+		width: 100%;
+		text-align: center;
+	}
+    .logo-bct {
+		margin-bottom: 0;
+		width: 100%;
+		text-align: center;
+		margin: 10px 0 0 0;
+	}
+    .footer-signup-inner {
+		background: white;
+		padding: 15px 15px;
+	}
+    .footer-signup .contentSubscribe {
+		display: block;
+	}
+    .left-page {
+		padding: 50px 0;
+	}
+	.left-page {
+		position: relative;
+		top: 0;
+		border-right: none;
+		height: 10vh;
+		padding: 0;
+	}
+    .left-page .left h1 {
+		font-size: 20px;
+		text-transform: inherit;
+	}
+	.left-page .left:after {
+		background:#000;
+		display: block;
+		width: 60px;
+		height: 2px;
+		margin-top: 10px;
+	}
+    .right-page {
+		padding: 15px;
+	}
+    .login-user .re-pass {
+		margin-left: 10px;
+	}
+	.offcanvas{
+		width: 50% !important;
+	}
+}
+@media (min-width: 768px) and (max-width: 1199.99px){
+    .topbar {
+		padding: 15px 15px;
+		font-size: 13px;
+	}
+	.topbar{
+		display: block;
+	}
+    .nav-mobile{
+        display: block;
+    }
+    .nav-lap{
+        display: none;
+    }
+    .innerStore{
+        font-size: 16px;
+        padding: 25px;
+    }
+    .bag-rightMobile {
+		position: relative;
+	}
+	.bag-rightMobile a {
+		display: inline-block;
+		position: relative;
+	}
+	.bag-rightMobile span.countMobile {
+		position: absolute;
+		top: -5px;
+		right: -5px;
+		background: black;
+		color: white;
+		width: 15px;
+		height: 15px;
+		border-radius: 100%;
+		text-align: center;
+		line-height: 15px;
+		font-size: 10px;
+	}
+	.searchBtn-mobile{
+		margin-top: 2px;
+	}
+    .accountMobile {
+		width: 25px;
+		height: 24px;
+		margin-top: 0px;
+	}
+    .logo-mainMobile {
+		width: 60%;
+		text-align: left;
+		display: inline-block;
+	}
+    .logo-mainMobile img {
+		max-width: 130px;
+		display: inline-block;
+	}
+    #sectionFooter{
+        font-size: 16px;
+    }
+    .innerMenuFooter h4 {
+		font-size: 16px;
+	}
+    .innerFooter .row > div {
+		width: 100%;
+	}
+    .innerFooter > div {
+		width: 100%;
+		margin-bottom: 15px;
+	}
+    .innerFooter {
+		margin: 0;
+	}
+	.innerFooter > div {
+		padding: 0;
+	}
+    .coppyRight {
+		float: left;
+		text-align: center;
+		width: 100%;
+		margin: 10px 0 0 0;
+	}
+	.infoFooterBottom {
+		float: left;
+		width: 100%;
+		text-align: center;
+	}
+    .logo-bct {
+		margin-bottom: 0;
+		width: 100%;
+		text-align: center;
+		margin: 10px 0 0 0;
+	}
+    .footer-signup-inner {
+		background: white;
+		padding: 15px 15px;
+	}
+    .footer-signup .contentSubscribe {
+		display: block;
+	}
+    .layout-account .left-page {
+		height: 10vh;
+	}
+	.left-page {
+		position: relative;
+		top: 0;
+		border-right: 1px solid #ededed;
+		height: 100vh;
+		padding: 0;
+	}
+    .left-page {
+		padding: 30px 0;
+		margin-top: 50px;
+	}
+	.left-page .left h1 {
+		font-size: 30x;
+	}
+	.left-page .left {
+		margin: 30px auto 0;
+	}
+    .left-page .left h1 {
+		font-size: 30px;
+		text-transform: inherit;
+	}
+    .left-page .left:after {
+		margin: 30px auto 0;
+	}
+    .right-page {
+		padding: 15px;
+	}
+    .login-user .re-pass {
+		margin-left: 10px;
+	}
+	.offcanvas{
+		width: 25% !important;
+	}
+}
+@media (min-width: 1200px){
+	.bag-rightMobile {
+		position: relative;
+	}
+	.bag-rightMobile a {
+		display: inline-block;
+		position: relative;
+	}
+	.bag-rightMobile span.countMobile {
+		position: absolute;
+		top: -5px;
+		right: -5px;
+		background: black;
+		color: white;
+		width: 15px;
+		height: 15px;
+		border-radius: 100%;
+		text-align: center;
+		line-height: 15px;
+		font-size: 10px;
+	}
+	.searchBtn-mobile{
+		margin-top: 2px;
+	}
+    .accountMobile {
+		width: 25px;
+		height: 24px;
+		margin-top: 0px;
+	}
+    .logo-mainMobile {
+		width: 60%;
+		text-align: left;
+		display: inline-block;
+	}
+    .logo-mainMobile img {
+		max-width: 130px;
+		display: inline-block;
+	}
+}
