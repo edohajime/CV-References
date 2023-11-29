@@ -1,0 +1,64 @@
+.my_list {
+    position: relative;
+}
+
+.my_slider {
+    overflow: hidden;
+}
+
+.my_container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    transition: all 0.25s ease-in-out;
+}
+
+.prev_button {
+    position: absolute;
+    display: flex;
+    top: 0;
+    height: 100%;
+    width: 66px;
+    cursor: pointer;
+    color: #fff;
+    background: linear-gradient(90deg, #F5F5F5 52.44%, rgba(245, 245, 245, 0.3827) 82.29%, rgba(245, 245, 245, 0) 100%);
+    border-radius: 0;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 5px;
+    transition: all 0.25s ease-in-out;
+    border-radius: 12px 0 0 12px;
+}
+
+.next_button {
+    position: absolute;
+    display: flex;
+    top: 0;
+    height: 100%;
+    width: 66px;
+    cursor: pointer;
+    color: #fff;
+    background: linear-gradient(270deg, #F5F5F5 52.44%, rgba(245, 245, 245, 0.3827) 82.29%, rgba(245, 245, 245, 0) 100%);
+    border-radius: 0;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 5px;
+    transition: all 0.25s ease-in-out;
+    border-radius: 0 12px 12px 0;
+}
+
+.prev_button.disable,
+.next_button.disable {
+    opacity: 0;
+    transition: all 0.25s ease-in-out;
+}
+
+.prev_button svg,
+.next_button svg {
+    color: #000;
+    font-size: 1rem;
+}
+
+.my_cell {
+    position: relative;
+}
